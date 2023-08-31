@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap');
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+table {
+  background-color: #f000ff;
+  color: #fff;
+  margin: 1rem auto;
+  width: 100%;
+  min-width: 300px;
+  max-width: 600px;
+  text-align: center;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+.app-table {
+  margin-top: 3rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+table.image-credit {
+  margin-top: auto;
+  background-color: #ff5e00;
+}
+
+.header {
+  background-color: greenyellow;
+  color: black;
+  font-family: 'Handjet', cursive;
+  font-size: 2rem;
+}
+
+.header h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.my-link {
+  color: rgb(255, 255, 255);
+  margin: 0 0.25rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task-name {
+  width: 50%;
+  text-align: left;
+  overflow-wrap: break-word;
+  font-weight: bold;
+}
